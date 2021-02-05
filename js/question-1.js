@@ -1,11 +1,6 @@
 // Question 1
+const a = (a, b) => a % b;
 
-// Traditional Function
+const b = a(32, 8);
 
-function division(a, b) {    
-    return a % b;
-}
-
-// Arrow Function
-
-(a, b) => a % b;
+console.log(b);
