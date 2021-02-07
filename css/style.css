@@ -27,20 +27,15 @@ h4 {
 }
 
 .loader {
-  background: rgb(124, 124, 124);
-  border: 2px solid rgb(180, 29, 29);
-  border-radius: 100%;
-  border-top: 4px rgb(180, 29, 29);
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  animation: spin 1.5s linear infinite;
+  border: 5px solid;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: rgb(14, 189, 37) transparent;
+  animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
   100% {
     transform: rotate(360deg);
   }
