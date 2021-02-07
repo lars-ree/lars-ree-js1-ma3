@@ -11,13 +11,15 @@ h1 {
   text-align: center;
   font-size: 32px;
   font-weight: 400;
-  padding-bottom: 5vh;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
 }
 
 h4 {
   font-size: 22px;
   font-weight: 350;
-  border-bottom: black solid 1px;
+  border-bottom: rgb(204, 13, 13) solid 1px;
+  color: rgb(8, 8, 8);
 }
 
 .game p {
